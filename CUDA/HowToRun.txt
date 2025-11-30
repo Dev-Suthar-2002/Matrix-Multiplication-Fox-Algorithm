@@ -1,0 +1,7 @@
+py -3.10 -m venv venv
+
+.\venv\scripts\activate
+
+pip install numpy matplotlib pandas numba
+
+python G8_FoxCUDA.py

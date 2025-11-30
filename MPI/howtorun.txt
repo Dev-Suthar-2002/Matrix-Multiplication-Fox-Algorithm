@@ -1,0 +1,6 @@
+mpiexec -np 1 python G8_FoxMPI.py
+mpiexec -np 4 python G8_FoxMPI.py
+mpiexec -np 16 python G8_FoxMPI.py
+
+then make sure to copy the results from CSV file in each run and then paste it in excelfile and save it as "mpi_results.xlsx". 
+copy that result excel file and paste it into the folder where we keep results.py
