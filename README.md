@@ -26,7 +26,7 @@ The FOX algorithm is an efficient method for performing matrix multiplication on
 
 ✔️ Produces validated results compared to serial baseline multiplication
 
-⚙️ Technologies Used
+## Technologies Used
 - Python 3.10+
 - NumPy
 - Numba (CUDA kernels)
@@ -34,7 +34,7 @@ The FOX algorithm is an efficient method for performing matrix multiplication on
 - CUDA Toolkit (11 or higher)
 - Matplotlib (for plotting benchmark results)
 
-📘 Algorithm Summary
+## Algorithm Summary
 - The FOX algorithm divides matrices into q × q sub-blocks, then:
 - Broadcasts appropriate sub-blocks across each row
 - Each process performs local matrix multiplication
